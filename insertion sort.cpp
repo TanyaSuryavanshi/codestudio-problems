@@ -13,3 +13,5 @@ void insertionSort(int n, vector<int> &arr){
     }
     
 }
+//tc=O(n^2)`
+//sp=O(1)
