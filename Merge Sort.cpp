@@ -68,4 +68,5 @@ void mergeS(vector<int> &arr, int s, int e) {
 void mergeSort(vector<int> &arr, int n) {
     mergeS(arr,0, n-1);
 }
-
+//Time Complexity: O(NLogN).
+//Auxiliary Space: O(N).
