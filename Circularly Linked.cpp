@@ -21,8 +21,8 @@ bool isCircular(Node* head){
     }
     //if(head->next==head)
        // return true;
-
-    Node* slow=head;
+    //floyd cycle detection algo
+    Node* slow=head;                
 
     Node* fast=head;
 
